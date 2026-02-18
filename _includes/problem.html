@@ -1,0 +1,23 @@
+<section class="problem">
+  <div class="container">
+    <h2 class="section-headline">{{ site.problem_headline }}</h2>
+    <div class="problem__grid">
+      <div class="problem__column">
+        <h3 class="problem__label">The Problem</h3>
+        <ol class="problem__list">
+          {% for point in site.problem_points %}
+          <li>{{ point }}</li>
+          {% endfor %}
+        </ol>
+      </div>
+      <div class="problem__column problem__column--solution">
+        <h3 class="problem__label">The Solution</h3>
+        <ol class="problem__list">
+          {% for point in site.solution_points %}
+          <li>{{ point }}</li>
+          {% endfor %}
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>

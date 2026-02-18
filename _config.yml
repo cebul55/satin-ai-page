@@ -1,0 +1,50 @@
+title: "Satin"
+tagline: "Stop Searching. Start Wearing."
+subheadline: "Your AI shopping assistant that finds exactly what you're looking for — filtered by size, material, and style — across every store at once."
+accent_color: "#D4A5A5"
+mailchimp_url: "REPLACE_WITH_MAILCHIMP_URL"
+buymeacoffee_url: "REPLACE_WITH_BMC_URL"
+description: "AI-powered fashion assistant — coming soon"
+
+problem_headline: "Online shopping is broken."
+problem_points:
+  - "You spend 45 minutes finding a basic black sweatshirt in your size."
+  - "Every store pushes its own agenda — not yours."
+  - "Quality is a gamble until the package arrives."
+solution_points:
+  - "Describe what you want in plain language — size, material, style, budget."
+  - "Get results curated for you, not for the store's bottom line."
+  - "See quality signals upfront so you buy with confidence."
+
+steps:
+  - title: "Tell it what you want"
+    description: "Describe in plain language: size, material, style, budget."
+    icon: "&#9998;"
+  - title: "Get curated results"
+    description: "Matched items from multiple stores, quality-filtered."
+    icon: "&#10024;"
+  - title: "Shop with confidence"
+    description: "Click through to buy, no second-guessing."
+    icon: "&#10003;"
+
+waitlist_headline: "Be the first to try it."
+waitlist_subtext: "We're building this for people who value their time. Join the waitlist and help shape the product."
+footer_tagline: "Made with ❤️ while validating an idea"
+
+hero_images:
+  - src: "/assets/img/hani-izza-86O0KRdf50Y-unsplash.jpg"
+    alt: "Close up view of a white fabric"
+    credit_name: "hani izza"
+    credit_url: "https://unsplash.com/@haniizza?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+    photo_url: "https://unsplash.com/photos/a-close-up-view-of-a-white-fabric-86O0KRdf50Y?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+  - src: "/assets/img/susan-wilkinson-FUun2TJyp_Q-unsplash.jpg"
+    alt: "Close up view of a white fabric"
+    credit_name: "Susan Wilkinson"
+    credit_url: "https://unsplash.com/@susan_wilkinson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+    photo_url: "https://unsplash.com/photos/white-textile-on-brown-wooden-table-FUun2TJyp_Q?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+  - src: "/assets/img/filipp-romanovski-rBtwLf_u_ps-unsplash.jpg"
+    alt: "Close up view of a white fabric"
+    credit_name: "Filipp Romanovski"
+    credit_url: "https://unsplash.com/@filipp_roman_photography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+    photo_url: "https://unsplash.com/photos/a-close-up-of-a-white-shirt-and-pants-rBtwLf_u_ps?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"     
+      

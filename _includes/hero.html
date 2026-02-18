@@ -1,0 +1,27 @@
+<section class="hero">
+  <div class="hero__carousel">
+    {% for image in site.hero_images %}
+    <div class="hero__slide{% if forloop.first %} hero__slide--active{% endif %}">
+      <img src="{{ image.src | relative_url }}" alt="{{ image.alt }}" class="hero__image">
+      <p class="hero__credit">
+        Photo by <a href="{{ image.credit_url }}" target="_blank" rel="noopener">{{ image.credit_name }}</a>
+        on <a href="{{ image.photo_url }}" target="_blank" rel="noopener">Unsplash</a>
+      </p>
+    </div>
+    {% endfor %}
+    {% if site.hero_images.size > 1 %}
+    <button class="hero__arrow hero__arrow--prev" aria-label="Previous image">&#8249;</button>
+    <button class="hero__arrow hero__arrow--next" aria-label="Next image">&#8250;</button>
+    <div class="hero__dots">
+      {% for image in site.hero_images %}
+      <button class="hero__dot{% if forloop.first %} hero__dot--active{% endif %}" aria-label="Go to slide {{ forloop.index }}"></button>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+  <div class="container hero__content">
+    <h1 class="hero__headline">{{ site.tagline | newline_to_br }}</h1>
+    <p class="hero__subheadline">{{ site.subheadline }}</p>
+    <a href="#waitlist" class="btn btn--primary">Join the Waitlist</a>
+  </div>
+</section>

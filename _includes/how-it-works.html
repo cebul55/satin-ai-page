@@ -1,0 +1,15 @@
+<section class="how-it-works" id="how-it-works">
+  <div class="container">
+    <h2 class="section-headline">How It Works</h2>
+    <div class="steps">
+      {% for step in site.steps %}
+      <div class="step">
+        <span class="step__icon">{{ step.icon }}</span>
+        <span class="step__number">{{ forloop.index }}</span>
+        <h3 class="step__title">{{ step.title }}</h3>
+        <p class="step__description">{{ step.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
